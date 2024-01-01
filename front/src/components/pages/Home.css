@@ -1,4 +1,8 @@
+.header{
+display: flex;
+padding-top: 50px;
+}
+
 .homepage{
-    display: flex;
-    
+
 }
