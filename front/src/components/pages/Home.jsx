@@ -9,7 +9,7 @@ function Home() {
     <div className="container">
       <NavBar/>
       <div className="swiper-container">
-        {/* <Slider01 /> */}
+        <Slider01 />
       </div>
       </div>
   );

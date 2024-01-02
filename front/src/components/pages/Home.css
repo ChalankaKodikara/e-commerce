@@ -1,0 +1,7 @@
+.homecontainer{
+    display: flex;
+}
+.swiper-container{
+    display: flex;
+    padding-top: 60px;
+}

@@ -1,46 +1,30 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import "./Navbar.css";
 
 function Navbar(props) {
   return (
-    <div>
-      <div id="header">
-        <div className="logo">
-          <a href="#">Your Logo</a>
-        </div>
-
-        <nav role="navigation" class="primary-navigation">
-          <ul>
-            <li>
-              <a href="#">Home</a>
-            </li>
-            <li>
-              <a href="#">Work </a>
-              <ul class="dropdown">
-                <li>
-                  <a href="#">Web Development</a>
-                </li>
-                <li>
-                  <a href="#">Web Design</a>
-                </li>
-                <li>
-                  <a href="#">Illustration</a>
-                </li>
-                <li>
-                  <a href="#">Iconography</a>
-                </li>
-              </ul>
-            </li>
-            <li>
-              <a href="#">About</a>
-            </li>
-            <li>
-              <a href="#">Contact</a>
-            </li>
+    <nav id="navigation">
+      <a href="#" className="logo">Business Name</a>
+      <ul className="links">
+        <li><a href="#">About</a></li>
+        <li className="dropdown">
+          <a href="#" className="trigger-drop">Work<i className="arrow"></i></a>
+          <ul className="drop">
+            <li><a href="#">Art</a></li>
+            <li><a href="#">Photography</a></li>
+            <li><a href="#">Audio</a></li>
+            <li><a href="#">Films</a></li>
           </ul>
-        </nav>
-      </div>
-    </div>
+        </li>
+        <li className="dropdown">
+          <a href="#" className="trigger-drop">Contact<i className="arrow"></i></a>
+          <ul className="drop">
+            <li><a href="#">Email</a></li>
+            <li><a href="#">Phone</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
   );
 }
 
