@@ -9,13 +9,15 @@
     "assert": "^2.1.0",
     "axios": "^1.6.3",
     "browserify-zlib": "^0.2.0",
+    "compass": "^0.1.1",
     "https-browserify": "^1.0.0",
     "jquery": "^3.7.1",
+    "modernizr": "^3.13.0",
+    "path-browserify": "^1.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.21.1",
     "react-scripts": "5.0.1",
-    "resolve-url-loader": "^4.0.0",
     "sass": "^1.49.0",
     "slick-carousel": "^1.8.1",
     "stream-browserify": "^3.0.0",
@@ -47,5 +49,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.16",
+    "node-sass": "^7.0.3",
+    "postcss": "^8.4.32",
+    "postcss-loader": "^7.3.4",
+    "resolve-url-loader": "^5.0.0",
+    "sass-loader": "^13.3.3"
   }
 }
