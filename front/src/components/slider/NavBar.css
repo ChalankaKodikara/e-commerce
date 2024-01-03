@@ -3,15 +3,15 @@
   box-sizing:border-box;
 }
 
-body{
+/* body{
   background: desaturate(navy,80%);
   color:#222;
   line-height:normal;
   font-size:16px;
   font-family:sans-serif;
-}
+} */
 
-a,a:hover{color: desaturate(navy,80%); text-decoration : none; font-weight:600;}
+a,a:hover{color: rgb(0, 0, 0);text-decoration : none; font-weight:600;}
 
 nav{
   position:fixed;
@@ -26,7 +26,7 @@ nav{
     position:relative;
     float:left;
     height:50px;
-    line-height:50px;
+    line-height:70px;
     padding:0 15px;
     font-size:22px;
     font-weight:900;
@@ -34,7 +34,6 @@ nav{
     span{
       display:inline-block;
       position:relative;
-      top:-8px;
       font-size:13pt;      
     }
     
@@ -59,7 +58,6 @@ nav{
         position:relative;
         display:inline-block;            
         padding:0 10px;
-        line-height:30px;
         height:30px;        
         
         &:hover{
